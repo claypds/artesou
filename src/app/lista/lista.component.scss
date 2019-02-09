@@ -1,0 +1,28 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.example-card {
+    max-width: 300px;
+  }
+
+  .example-header-image {
+    background-image: url('https://avatars3.githubusercontent.com/u/19243442?s=60&v=4');
+    background-size: cover;
+  }
+  //https://material.angular.io/assets/img/examples/shiba1.jpg
+
+
+  .example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox.
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
+  .example-container {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #555;
+  }
+  .example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox.
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+  }
